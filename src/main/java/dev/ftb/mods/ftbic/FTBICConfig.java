@@ -59,21 +59,21 @@ public class FTBICConfig {
 	public static double NUCLEAR_REACTOR_EXPLOSION_LIMIT = 80;
 
 	public static double BASIC_GENERATOR_CAPACITY = 4000;
-	public static double BASIC_GENERATOR_OUTPUT = 10;
+	public static double BASIC_GENERATOR_OUTPUT = 15;
 	public static int GEOTHERMAL_GENERATOR_TANK_SIZE = 8_000;
 	public static double GEOTHERMAL_GENERATOR_CAPACITY = 2_400;
-	public static double GEOTHERMAL_GENERATOR_OUTPUT = 20;
+	public static double GEOTHERMAL_GENERATOR_OUTPUT = 30;
 	public static double WIND_MILL_CAPACITY = 100;
-	public static double WIND_MILL_MIN_OUTPUT = 0.3;
-	public static double WIND_MILL_MAX_OUTPUT = 6.5;
+	public static double WIND_MILL_MIN_OUTPUT = 1.0;
+	public static double WIND_MILL_MAX_OUTPUT = 20.0;
 	public static int WIND_MILL_MIN_Y = 64;
 	public static int WIND_MILL_MAX_Y = 250;
 	public static double WIND_MILL_RAIN_MODIFIER = 1.2;
 	public static double WIND_MILL_THUNDER_MODIFIER = 1.5;
-	public static double LV_SOLAR_PANEL_OUTPUT = 1;
-	public static double MV_SOLAR_PANEL_OUTPUT = 8;
-	public static double HV_SOLAR_PANEL_OUTPUT = 64;
-	public static double EV_SOLAR_PANEL_OUTPUT = 512;
+	public static double LV_SOLAR_PANEL_OUTPUT = 8;
+	public static double MV_SOLAR_PANEL_OUTPUT = 64;
+	public static double HV_SOLAR_PANEL_OUTPUT = 512;
+	public static double EV_SOLAR_PANEL_OUTPUT = 4096;
 	public static double NUCLEAR_REACTOR_CAPACITY = 50_000;
 
 	public static double MACHINE_RECIPE_BASE_TICKS = 200;
